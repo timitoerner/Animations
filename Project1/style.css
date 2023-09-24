@@ -1,0 +1,11 @@
+#container {
+
+}
+
+.ring {
+    position: relative;
+}
+.ring:nth-child(i) {
+    color: var(i * 25);
+}
+
